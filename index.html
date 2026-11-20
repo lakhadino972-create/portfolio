@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lakha Dino – Data Science & AI</title>
+<meta name="description" content="Portfolio of Lakha Dino, BS IT student at the University of Sindh, Jamshoro, building machine learning and deep learning projects.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap"><b>Lakha Dino</b><div><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<canvas id="plot" aria-hidden="true"></canvas>
+<div class="wrap">
+<div>
+<h2>Lakha Dino</h2>
+<p>BS IT student at the University of Sindh, Jamshoro, building machine learning and deep learning projects. I turn datasets into working apps that people can open and use.</p>
+<div class="btns"><a class="btn" href="#projects">See my projects</a><a class="btn o" href="#contact">Get in touch</a></div>
+</div>
+<div class="frame"><div class="pic"><span>LD</span><img src="picture.png" alt="Lakha Dino" onerror="this.remove()"></div></div>
+</div>
+<div class="read">Move your cursor: a k-nearest-neighbours model labels it <b id="lab">–</b></div>
+</header>
+
+<main class="wrap">
+<section id="projects">
+<h2>Projects</h2>
+<p class="lead">Two end-to-end builds: data, model, interface and deployment.</p>
+
+<article class="proj">
+<h3>AI Smart Civic Services</h3>
+<p>A hackathon app where citizens report civic problems and a scikit-learn model sorts each complaint into the right department. Deployed on Streamlit Cloud.</p>
+<div class="tags"><span>Python</span><span>scikit-learn</span><span>Streamlit</span><span>SQLite</span></div>
+<button type="button" aria-expanded="false" data-more="m1">Show details</button>
+<div class="more" id="m1"><div><ul>
+<li>Complaint classifier sorts reports into Road, Water, Drainage, Waste, Electricity and Safety.</li>
+<li>Each complaint moves through Open, Assigned, In Progress and Resolved.</li>
+<li>Complaints are stored in a SQLite database; the dashboard has a dark, animated theme.</li>
+</ul></div></div>
+<div class="pl"><a href="https://hackathon-6vpcbxzdup6bnfsvg6athx.streamlit.app/">Open live app</a><a href="https://github.com/lakhadino972-create/hackathon">View code</a></div>
+</article>
+
+<article class="proj">
+<h3>Dialysis Need Predictor</h3>
+<p>A website that predicts whether a patient may need dialysis from kidney disease data. It is a learning project and not medical advice.</p>
+<div class="tags"><span>Python</span><span>scikit-learn</span><span>FastAPI</span><span>HTML frontend</span><span>Docker</span></div>
+<button type="button" aria-expanded="false" data-more="m2">Show details</button>
+<div class="more" id="m2"><div><ul>
+<li>Model trained on a kidney disease CSV dataset.</li>
+<li>FastAPI backend serves predictions to a plain HTML frontend.</li>
+<li>Packaged with Docker and deployed on Vercel.</li>
+</ul></div></div>
+<div class="pl"><a href="https://classassignment-xi.vercel.app/">Open live site</a></div>
+</article>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<p class="lead">What I use now, and what I am learning.</p>
+<div class="bars">
+<div class="bar"><div><span>Python and data analysis</span><span>Strong</span></div><div class="track"><div class="fill" data-w="82"></div></div></div>
+<div class="bar"><div><span>Machine learning with scikit-learn</span><span>Solid</span></div><div class="track"><div class="fill" data-w="72"></div></div></div>
+<div class="bar"><div><span>APIs and web apps (FastAPI, Streamlit)</span><span>Solid</span></div><div class="track"><div class="fill" data-w="68"></div></div></div>
+<div class="bar"><div><span>Deep learning</span><span>Learning now</span></div><div class="track"><div class="fill" data-w="40"></div></div></div>
+</div>
+<div class="grid" style="margin-top:34px">
+<div class="card"><h3>Statistics</h3><p>Studying it in the Saylani data science programme.</p></div>
+<div class="card"><h3>Databases</h3><p>SQLite and SQL for storing app data.</p></div>
+<div class="card"><h3>Deployment</h3><p>Streamlit Cloud, Docker and Vercel.</p></div>
+<div class="card"><h3>Teaching</h3><p>I can explain technical ideas clearly.</p></div>
+</div>
+</section>
+
+<section id="journey">
+<h2>Journey</h2>
+<p class="lead">How I got here.</p>
+<ol class="tl">
+<li><b>BS IT, University of Sindh, Jamshoro</b><p>Third-year student, focused on data science and AI.</p></li>
+<li><b>Saylani Mass IT Training </b><p>Batch 4, Statistics track, alongside a data science and AI course.</p></li>
+<li><b>Hackathon and deployed projects</b><p>Built the civic services app and the dialysis predictor.</p></li>
+<li><b>Now: ML and deep learning models</b><p>Training and testing new models for the next projects.</p></li>
+</ol>
+</section>
+
+<section id="contact" class="contact">
+<h2>Let’s work together</h2>
+<p class="lead">Open to internships, collaborations and data projects. Message me on any of these.</p>
+<div class="social">
+<a href="https://wa.me/923467691905"><b>WhatsApp</b><span>+92 346 7691905</span></a>
+<a href="mailto:lakhadino972@gmail.com"><b>Email</b><span>lakhadino972@gmail.com</span></a>
+<a href="https://www.linkedin.com/in/lakha-dino-207b3442a"><b>LinkedIn</b><span>Connect professionally</span></a>
+<a href="https://github.com/lakhadino972-create"><b>GitHub</b><span>lakhadino972-create</span></a>
+<a href="https://www.facebook.com/share/1CdmNb1BnR/?mibextid=wwXIfr"><b>Facebook</b><span>Follow me</span></a>
+<a href="https://www.instagram.com/the__lakha"><b>Instagram</b><span>the__lakha</span></a>
+</div>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Lakha Dino · University of Sindh, Jamshoro · Pakistan</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
